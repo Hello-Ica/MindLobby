@@ -335,3 +335,5 @@ def send_contact_email(first_name, last_name, email, subject_type, message):
         return True, "Message sent successfully"
     except Exception as e:
         return False, f"Failed to send message: {str(e)}"
+
+  
